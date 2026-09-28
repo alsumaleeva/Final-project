@@ -17,7 +17,7 @@
     JOIN "Orders" AS o ON c.id = o."courierId"
     WHERE o."inDelivery" = true
     GROUP BY c.login;
-    ```
+```
 
 # Задание 2
 -- После запуска файла test_accept_order.py в терминале вбить следующий код чтоб убедиться, что в базе данных статусы заказов записываются корректно.  
