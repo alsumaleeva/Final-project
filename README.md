@@ -33,4 +33,5 @@ FROM "Orders";
 ```
 
 # Задание 3
--- Запустить файл test_get_order_by_track.py
+-- Запустить файл test_get_order_by_track.py  
+-- Скриншот в файле test_result.png
