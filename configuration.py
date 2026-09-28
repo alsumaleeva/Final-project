@@ -1,5 +1,5 @@
 # URL_SERVICE хранит базовый URL веб-сервиса, который используется для доступа к API или другим ресурсам.
-URL_SERVICE = "https://c47c73df-c0f2-4607-854c-0fb309aa6359.serverhub.praktikum-services.ru"
+URL_SERVICE = "https://af479aaf-a78d-4253-ad63-d4f93b0ee0d3.serverhub.praktikum-services.ru"
 
 # Путь для создания курьера
 CREATE_COURIER_PATH = "/api/v1/courier"

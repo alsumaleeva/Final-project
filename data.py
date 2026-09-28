@@ -5,14 +5,14 @@ headers = {
 
 # Тело запроса на создание курьера.
 courier_body = {
-    "login": "kurier1",
+    "login": "kurier111",
     "password": "1234",
     "firstName": "Ivan"
 }
 
 # Тело запроса на вход тем же курьером — логин и пароль должны совпадать с courier_body
 courier_login_body = {
-    "login": "kurier1",
+    "login": "kurier111",
     "password": "1234"
 }
 
