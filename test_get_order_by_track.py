@@ -11,11 +11,9 @@ def test_get_order_by_track():
 
     # Шаг 2. Сохраняем номер трека заказа из ответа
     track = order_response.json()["track"]
-    print(f"Номер заказа (track): {track}")
 
     # Шаг 3. Выполняем запрос на получение заказа по треку
     get_response = sender_stand_request.get_order_by_track(track)
 
     # Шаг 4. Проверяем, что код ответа равен 200
     assert get_response.status_code == 200
-    print(f"Заказ с track={track} успешно найден, статус: {get_response.status_code}")
